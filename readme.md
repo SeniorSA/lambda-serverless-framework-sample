@@ -1,7 +1,7 @@
 # Lambda Serverless Framework
 Este projeto tem como objetivo fazer proxy de chamadas de API externa utilizadas para obter CEP e integrar ao BPM por meio de Lambdas.
 
-## Necessário para o ambienbte
+## Necessário para o ambiente
     - Nodejs, link de donwload [aqui](https://nodejs.org/pt-br/blog/release/v14.15.0/)
     - Após instalação rodar o comando `npm i -g serverless@3.7.1`
 
@@ -27,4 +27,4 @@ A documentação referente a estas chaves estão disponíveis [aqui](https://doc
 Após a configuração das chaves basta realizar o seguinte comando:
 - `sls deploy`
 
-Após o término do deploy será exibido um endpoint para chamada desta lambda na aws, que será similar a teste https://gkl1phg380.execute-api.us-east-1.amazonaws.com/prod/
+Após o término do deploy será exibido um endpoint para chamada desta lambda na aws, que será similar a este `https://gkl1phg380.execute-api.us-east-1.amazonaws.com/prod/`
