@@ -1,0 +1,18 @@
+service: http-api-sample
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  stage: prod
+
+plugins:
+  - serverless-offline
+
+functions:
+  hello:
+    handler: handler.handler
+    events:
+      - http:
+          path: /
+          method: get
