@@ -1,5 +1,5 @@
 # Lambda Serverless Framework
-Este projeto tem como objetivo fazer proxy de chamadas de API externa utilizadas no BPM por meio de Lambdas.
+Este projeto tem como objetivo fazer proxy de chamadas de API externa utilizadas para obter CEP e integrar ao BPM por meio de Lambdas.
 
 ## Necessário para o ambienbte
     - Nodejs, link de donwload [aqui](https://nodejs.org/pt-br/blog/release/v14.15.0/)
