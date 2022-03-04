@@ -11,14 +11,14 @@ Após clonar este repositório é necessário instalar as dependências com o co
 
 Após a instalação das dependências pode-se criar lógicas, chamadas de APIs, mapeamentos e muito muito mais dentro do arquivo `handler.js` disponível no projeto.
 
-### Executando localmente
+## Executando localmente
 Para rodar a lambda localmente é necessário rodar o comando:
  -  `sls offline`
 
 Ao finalizar a compilação será disponibilizado um endpoint para a chamada da função `handler.js`.
 Tal endpoint (que será parecido com este `http://localhost:3000/prod`) pode ser chamados via Postman ou diretamente pelo browser.
 
-### Executando na AWS
+## Executando na AWS
 Antes de gerar a build para a AWS é necessário setar as chaves de API através do comando abaixo:
 - `sls config credentials --provider aws --key EXAMPLE_KEY --secret EXAMPLE_SECRET`
 
