@@ -1,5 +1,7 @@
 # Lambda Serverless Framework
-Este projeto tem como objetivo fazer proxy de chamadas de API externa utilizadas para obter CEP e integrar ao BPM por meio de Lambdas.
+Este projeto tem como objetivo fazer proxy de chamadas de API utilizadas no BPM por meio de Lambdas, que é um serviço de computação sem servidor e orientado a eventos que permite executar código para praticamente qualquer tipo de aplicação ou serviço de backend sem provisionar ou gerenciar servidores.
+
+Para criar uma Lambda pode-se usar o Serverless Framework, que é um framework web gratuito e de código aberto para criação de funções serverless, não limitada somente a Lambda AWS, mas é um ótimo produto para criação das mesmas.
 
 ## Necessário para o ambiente
     - Nodejs, link de donwload [aqui](https://nodejs.org/pt-br/blog/release/v14.15.0/)
