@@ -5,7 +5,7 @@ Este projeto tem como objetivo fazer proxy de chamadas de API externa utilizadas
     - Nodejs, link de donwload [aqui](https://nodejs.org/pt-br/blog/release/v14.15.0/)
     - Após instalação rodar o comando `npm i -g serverless@3.7.1`
 
-## Desenvolvendo a lambda
+## Desenvolvendo a Lambda
 Após clonar este repositório é necessário instalar as dependências com o comando abaixo:
  - `cd http-api-sample && npm i`
 
