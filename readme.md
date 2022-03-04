@@ -30,3 +30,7 @@ Após a configuração das chaves basta realizar o seguinte comando:
 - `sls deploy`
 
 Após o término do deploy será exibido um endpoint para chamada desta lambda na aws, que será similar a este `https://gkl1phg380.execute-api.us-east-1.amazonaws.com/prod/`
+
+# Usar a Lambda no BPM
+Para utilizar a Lambda criada acima é necessário acessar o cadastro de fontes externas do BPM informando o endpoint e o mapeamento de dados, como pode ser visto na imagem abaixo:
+![Mapeamento lambda BPM](https://raw.githubusercontent.com/SeniorSA/lambda-serverless-framework-sample/main/imagens/api-externa.PNG)
