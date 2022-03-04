@@ -1,5 +1,5 @@
 # Lambda Serverless Framework
-Este projeto tem como objetivo fazer proxy de chamadas de API utilizadas no BPM por meio de Lambdas.
+Este projeto tem como objetivo fazer proxy de chamadas de API externa utilizadas no BPM por meio de Lambdas.
 
 ## Necessário para o ambienbte
     - Nodejs, link de donwload [aqui](https://nodejs.org/pt-br/blog/release/v14.15.0/)
@@ -9,10 +9,13 @@ Este projeto tem como objetivo fazer proxy de chamadas de API utilizadas no BPM 
 Após clonar este repositório é necessário instalar as dependências com o comando abaixo:
  - cd http-api-sample && npm i
 
-Após a instalação das dependências pode-se criar lógicas, chamadas de APIs, mapeamentos e muito muito mais dentro do arquivo `handler.js` dentro do projeto.
+Após a instalação das dependências pode-se criar lógicas, chamadas de APIs, mapeamentos e muito muito mais dentro do arquivo `handler.js` disponível no projeto.
 
 ### Executando localmente
-Para rodar a lambda localmente é necessário rodar o comando `sls offline`, e ao finalizar a compilação será disponibilizado um endpoint para a chamada da função `handler.js`.
+Para rodar a lambda localmente é necessário rodar o comando:
+ -  `sls offline`
+ 
+Ao finalizar a compilação será disponibilizado um endpoint para a chamada da função `handler.js`.
 Tal endpoint (que será parecido com este `http://localhost:3000/prod`) pode ser chamados via Postman ou diretamente pelo browser.
 
 ### Executando na AWS
